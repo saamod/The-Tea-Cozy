@@ -1,0 +1,153 @@
+* {
+    color: seashell;
+    font-family: Helvetica;
+}
+
+ html {
+    background-color: #282828;
+    font-size: 22px;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: #282828;
+    height: 69px;
+    top: 0;
+    left: 0;
+}
+
+.tea-cozy-logo {
+    position: relative;
+    height: 50px;
+    left: 10px;
+    top: 9.5px;
+}
+
+header ul {
+    padding-right: 30px;
+}
+
+header ul li {
+    text-decoration: underline;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+main {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 69px;
+    text-align: center;
+}
+
+.our-mission {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    align-items: center;
+}
+
+.background-color {
+    background-color: #282828;
+    width: 100%;
+    
+}
+.tea-of-the-month {
+    width: 1000px;
+    padding: 30px 0px;
+}
+
+.tea-of-the-month h2 {
+    margin: 50px 0px 20px 0px;
+}
+
+.Whats-Steeping-at-The-Tea-Cosy {
+    margin: 0px;
+}
+
+.tea-of-the-month div {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+.tea-of-the-month #inline-flex div img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-of-the-month #inline-flex div p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.location {
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location h2 {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 15%;
+}
+
+.location div {
+    height: 300px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 10%;
+}
+
+.location div div {
+    width: 300px;
+    height: 230px;
+    margin: 15px 20px 0px 20px;
+    background-color: #282828;
+}
+
+
+footer {
+    height: 200px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+footer h2 {
+    padding-bottom: 5px;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+#flex {
+    display: flex;
+}
+
+#inline-flex {
+    display: inline-flex;
+}
